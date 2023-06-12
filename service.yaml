@@ -1,0 +1,6 @@
+ python-api:
+    image: python-web
+    build: ./python	
+    ports:
+      - "8000:8080"
+    restart: always   
